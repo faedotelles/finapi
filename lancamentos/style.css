@@ -1,0 +1,123 @@
+.button {
+    background-color: #696969; /* Green */
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: -5px 2px;
+    width: 128px;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    cursor:pointer;
+  }
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .button1 {
+    background-color: #696969; /* Green */
+    transition-duration: 0.4s;
+    margin: -5px 2px;
+    border: none;
+    color: white;
+    width: 128px;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+  }
+
+  .button1:hover {
+    background-color: #1099ac; /* Green */
+    color: white;
+  }
+
+  .input[type=text] {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 260px;
+    padding: 8px 14px;
+    margin: -5px 2px;
+    box-sizing: border-box;
+  }
+
+  .inputPequeno[type=text] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 128px;
+    height: 30px;
+    padding: 8px 14px;
+    margin: -5px 2px;
+    box-sizing: border-box;
+  }
+  .inputGrande[type=text] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 260px;
+    height: 30px;
+    padding: 8px 14px;
+    margin: -5px 0;
+    box-sizing: border-box;
+  }
+
+div{
+    display: center;
+}
+  
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    height: 16px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(134, 134, 134);
+    color: #fff;
+    text-align: center;
+    margin: -5px 2px;
+    border-radius: 5px;
+    padding: 12px 20px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltiprest {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltiprest .tooltiptextrest {
+    visibility: hidden;
+    width: 200px;
+    height: 18px;
+    background-color: rgb(134, 134, 134);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 20px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltiprest:hover .tooltiptextrest {
+    visibility: visible;
+  }
