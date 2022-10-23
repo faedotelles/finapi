@@ -6,7 +6,7 @@ const table = document.getElementById('tabela');
 
 async function returnData() {
     try {
-        const response = await fetch('http://localhost:3002/');
+        const response = await fetch('http://localhost:3000/lancamentos');
         const data = await response.json()
         return data
 
@@ -20,7 +20,6 @@ returnData().then((response) => {
 })
 
 function createTable(lanfin) {
-    console.log(lanfin.data)
     let output = `<tr>
     <th>ID</th>
     <th>Valor</th>

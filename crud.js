@@ -6,7 +6,7 @@ const {convertLancamentos} = require('./lanfin')
 const {convertCep} = require('./lanfin')
 
 
-const port = 3001;
+const port = 3000;
 
 app.use(cors());
 app.listen(port)
@@ -17,7 +17,7 @@ app.get('/lancamentos/:idlanfin?', (req, res) => {
     if (req.params.idlanfin) {
         filter = ' WHERE IDLANFIN =' + parseInt(req.params.idlanfin)
     }
-    let sql = `SELECT * FROM MYSQL.LANCAMENTOS`;
+    let sql = `SELECT * FROM MYSQL.LANCAMENTOS ORDER BY IDLANFIN DESC LIMIT 10`;
     executeSQLQry(sql + filter, res);
 });
 

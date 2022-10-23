@@ -1,3 +1,4 @@
+
 .button {
     background-color: #696969; /* Green */
     transition-duration: 0.4s;
@@ -6,8 +7,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: -5px 2px;
-    width: 128px;
+    margin: -5px 0px;
+    width: 115px;
     padding: 15px 10px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,10 +23,10 @@
   .button1 {
     background-color: #696969; /* Green */
     transition-duration: 0.4s;
-    margin: -5px 2px;
+    margin: -5px 0px;
     border: none;
     color: white;
-    width: 128px;
+    width: 141px;
     padding: 15px 10px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,3 +122,5 @@ div{
   .tooltiprest:hover .tooltiptextrest {
     visibility: visible;
   }
+
+  

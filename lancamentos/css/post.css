@@ -1,0 +1,176 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background: #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-finance{
+    margin-top: 100px;
+}
+
+.hide {
+    display: none;
+}
+.form{
+    min-width: 250px;
+} 
+
+.insert {
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.form h3 {
+    margin-bottom: 1rem;
+    color: #353535;
+}
+
+.form-input-insert {
+    display: flex;
+}
+
+.form input {
+    padding: 0.7rem;
+    border-radius: 4px;
+}
+
+.form-button-add {
+    margin-top: 1em;
+    padding: 0.7rem;
+    min-width: 370px;
+    border: none;
+    margin-left: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #a8fdc2;
+}
+
+.form-button-remove {
+    margin-top: 1em;
+    padding: 0.7rem;
+    min-width: 370px;
+    border: none;
+    margin-left: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fd6f56;
+}
+
+.form-button-passive {
+    margin-top: 1em;
+    padding: 0.7rem;
+    min-width: 370px;
+    border: none;
+    margin-left: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+.form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #eeeeee;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 5px;
+    min-height: 40px;
+    /* Imagem de fundo (Seta) */
+    background-position: 218px center;
+    /*Posição da imagem do background*/
+    width: 120px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border: 1px solid #ddd;
+}
+
+#value-input {
+    padding: 0.7rem;
+    background-color: #e0e0e0;
+    border: none;
+    min-width: 350px;
+    margin-left: 4px;
+    margin-bottom: 1em;
+}
+
+.finances-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 370px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.15);
+}
+
+.finances-table thead tr {
+    background-color: #fd6f56;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.finances-table tr,
+.finances-table td {
+    border-right: 0.5px solid #c0c0c0;
+    padding: 12px 15px;
+}
+
+.finances-table tbody tr{
+    border-right: 0.5px solid #c0c0c0;
+    border-right: 0.5px solid #c0c0c0;
+    background-color: #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.finances-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.finances-table tbody tr:last-of-type{
+    border-bottom: 2px solid #fd6f56;
+}
+
+.finances-table tbody tr.active-row{
+    font-weight: bold;
+    color: #fd6f56;
+}
+
+#menumais.add{
+    min-height: 50px;
+    min-width: 60px;
+    margin-left: 38px;
+    margin-top: 480px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 55px;
+    color: #fd6f56;
+}
+
+#menumais.exit{
+    min-height: 50px;
+    min-width: 60px;
+    margin-left: 0px;
+    margin-top: 480px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 55px;
+    color: #9e9e9e;
+}
